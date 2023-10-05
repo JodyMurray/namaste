@@ -24,9 +24,3 @@ code {
   box-sizing: border-box;
 }
 
-.navbar {
-  background-color: #AABCA0;
-}
-.nav-links a:hover {
-  transform: scale(1.4) !important;
-}

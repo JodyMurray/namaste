@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.navbar {
+  background-color: #aabca0;
+}
+.NavLinks a:hover {
+  transform: scale(1.5) !important;
+}
+
+.NavLinks {
+    color: black;
+}
