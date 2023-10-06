@@ -2,16 +2,19 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faPersonWalking } from "@fortawesome/free-solid-svg-icons";
+import styles from "./Footer.module.css";
+import FooterImage from "../../assets/footerimage.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-purple-200 text-grays p-4">
-      <div className="container mx-auto flex flex-col items-center">
+    <footer className="text-gray p-4 relative">
+      <img src={FooterImage} alt="footer image" className={`${styles.Footer} bg-cover`} />
+      <div className="absolute inset-0 flex flex-col items-center justify-center">
         <div className="mb-4">
-          <p className="text-lg font-semibold">Yoga with Seána</p>
+          <p className="text-lg font-semibold text-white">Yoga with Seána</p>
         </div>
         <div className="mb-4">
-          <p className="text-sm">
+          <p className="text-sm text-white">
             &copy; {new Date().getFullYear()} Projects by Keiron and Jody
           </p>
         </div>

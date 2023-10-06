@@ -3,8 +3,9 @@
 @import "tailwindcss/utilities";
 
 .navbar {
-  background-color: transparent;
+  background: transparent;
   position: fixed;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
 }
 .NavLinks:hover {
   transform: scale(1.2) !important;

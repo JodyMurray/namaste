@@ -11,7 +11,7 @@ function Header() {
       <nav className="p-4">
         <div className="container mx-auto flex justify-between items-center">
           <a href="/" className="text-white text-2xl font-bold">
-            <img src={logo2} className={styles.logo} alt="logo" height="60" />
+            <img src={logo2} className={styles.logo} alt="logo" height="55" />
           </a>
           <ul className="flex space-x-6">
             <li className={styles.NavLinks}>
