@@ -3,7 +3,7 @@ import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <header className={styles.navbar}>
+    <header className={`${styles.navbar} absolute top-0 left-0 right-0 bg-black bg-opacity-50 z-10`}>
       <nav className="p-4">
       <div className="container mx-auto flex justify-between items-center">
         <a href="/" className="text-white text-2xl font-bold">
