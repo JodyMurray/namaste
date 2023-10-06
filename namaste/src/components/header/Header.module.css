@@ -3,12 +3,13 @@
 @import "tailwindcss/utilities";
 
 .navbar {
-  background-color: #aabca0;
+  background-color: #b8ccad;
 }
-.NavLinks a:hover {
-  transform: scale(1.5) !important;
+.NavLinks:hover {
+  transform: scale(1.2) !important;
+  transition: 0.7s ease-in-out;
 }
 
 .NavLinks {
-    color: black;
+  color: black;
 }

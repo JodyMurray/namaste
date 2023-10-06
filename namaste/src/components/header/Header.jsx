@@ -4,10 +4,12 @@ import styles from "./Header.module.css";
 function Header() {
   return (
     <header className={styles.navbar}>
-      <nav className="p-4 navbar">
+      <nav className="p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <a href="/" className="text-white text-2xl font-bold"></a>
-        <ul className={`${styles.NavLinks} flex space-x-5`}>
+        <a href="/" className="text-white text-2xl font-bold">
+          <h2>Yoga with Seána</h2>
+        </a>
+        <ul className="flex space-x-6">
           <li className={styles.NavLinks}>
             <a href="/" className="text-white">
               Home
