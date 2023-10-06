@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Header.module.css";
 import logo from "../../assets/logo.png";
+import logo2 from "../../assets/logo2.png";
 
 function Header() {
   return (
@@ -10,12 +11,8 @@ function Header() {
       <nav className="p-4">
         <div className="container mx-auto flex justify-between items-center">
           <a href="/" className="text-white text-2xl font-bold">
-            <img src={logo} className={styles.logo} alt="logo" height="40" />
+            <img src={logo2} className={styles.logo} alt="logo" height="60" />
           </a>
-          <h1 className={`${styles.Heading1} text-white text-xl font-bold`}>
-            Yoga with Seána
-          </h1>{" "}
-          {/* Your heading */}
           <ul className="flex space-x-6">
             <li className={styles.NavLinks}>
               <a href="/" className="text-white">
