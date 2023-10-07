@@ -84,6 +84,7 @@ export default function Events() {
           </div>
         </div>
       </div>
+
       <div>
         <h1 className={``}>Title</h1>
         <h2>. . .</h2>
@@ -97,7 +98,7 @@ export default function Events() {
         </p>
 
         <div class={`grid grid-cols-2 md:grid-cols-4 gap-4 ${styles.ImageMargin}`}>
-          <div class="grid gap-4">
+          <div class="grid gap-3">
             <div>
               <img
                 class="h-auto max-w-full rounded-lg"
