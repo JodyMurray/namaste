@@ -3,16 +3,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faPersonWalking } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Footer.module.css";
-import FooterImage from "../../assets/footerimage.png";
+import logo2 from "../../assets/logo2.png";
 
 const Footer = () => {
   return (
-    <footer className="text-gray p-4 relative">
-      <img src={FooterImage} alt="footer image" className={`${styles.Footer} bg-cover`} />
+    <footer
+      className={`${styles.Footer} bg-gradient-to-b from-black via-gray-800 to-gray-700 h-40 w-full text-white p-4 relative`}
+    >
       <div className="absolute inset-0 flex flex-col items-center justify-center">
-        <div className="mb-4">
-          <p className="text-lg font-semibold text-white">Yoga with Seána</p>
-        </div>
+        <img src={logo2} alt="Logo" className="w-25 h-16 brightness-255" />
         <div className="mb-4">
           <p className="text-sm text-white">
             &copy; {new Date().getFullYear()} Projects by Keiron and Jody

@@ -55,10 +55,10 @@ const Home = () => {
         />
         <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-black to-transparent">
           <div className="max-w-xl mx-auto text-white p-8">
-            <h2 className="text-4xl font-bold mb-4" data-aos="fade-right">
+            <h2 className="text-4xl font-bold mb-4" data-aos="fade-left">
               Explore the Serenity
             </h2>
-            <p className="text-lg" data-aos="fade-left">
+            <p className="text-lg" data-aos="fade-right">
               Immerse yourself in the tranquil world of yoga and experience
               inner peace like never before. Join us in this journey of wellness
               and mindfulness.
