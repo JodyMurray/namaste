@@ -3,7 +3,19 @@ import AOS from "aos";
 
 import styles from "./Events.module.css";
 
-import treknflowhero from "../../assets/treknflow.jpg";
+import treknflowhero from "../../assets/treknflow/treknflow.jpg";
+import treknflow2 from "../../assets/treknflow/trekndflow2.jpg";
+import treknflow3 from "../../assets/treknflow/trekndflow3.jpg";
+import treknflow4 from "../../assets/treknflow/trekndflow4.jpg";
+import treknflow5 from "../../assets/treknflow/trekndflow5.jpg";
+import treknflow6 from "../../assets/treknflow/trekndflow6.jpg";
+import treknflow7 from "../../assets/treknflow/trekndflow7.jpg";
+import treknflow8 from "../../assets/treknflow/trekndflow8.jpg";
+import treknflow9 from "../../assets/treknflow/trekndflow9.jpg";
+import treknflow10 from "../../assets/treknflow/trekndflow10.jpg";
+import treknflow11 from "../../assets/treknflow/trekndflow11.jpg";
+import treknflow12 from "../../assets/treknflow/trekndflow12.jpg";
+import treknflow13 from "../../assets/treknflow/trekndflow13.jpg";
 
 const yogaTrekkingEvents = [
   {
@@ -57,11 +69,125 @@ export default function Events() {
             <h1 className="text-4xl font-bold mb-4" data-aos="fade-right">
               Trek'N'Flow
             </h1>
-            <p className="text-lg content-center" data-aos="fade-left">
-              "there is wisdom in climbing mountains, for they teach us how truly
-              small we are"
-              -- Jeff Wheeler
+            <p className="text-lg content-center mb-4" data-aos="fade-left">
+              "there is wisdom in climbing mountains, for they teach us how
+              truly small we are" -- Jeff Wheeler
             </p>
+            <p className="text-lg content-center" data-aos="fade-left">
+              Immerse yourself in the beauty of nature and discover inner peace
+              through our unique blend of yoga and trekking experiences. At our
+              yoga trekking events, we invite you to embark on a journey of
+              self-discovery amidst some of the most breathtaking landscapes in
+              Andalucia. Join us in reconnecting with nature, rejuvenate your
+              spirit, and discover the inner peace that lies within.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h1 className={``}>Title</h1>
+        <h2>. . .</h2>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta
+          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
+          qui ratione voluptatem sequi nesciunt.
+        </p>
+
+        <div class={`grid grid-cols-2 md:grid-cols-4 gap-4 ${styles.ImageMargin}`}>
+          <div class="grid gap-4">
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={treknflow2}
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={treknflow3}
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={treknflow4}
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="grid gap-4">
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={treknflow5}
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={treknflow6}
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={treknflow7}
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="grid gap-4">
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={treknflow8}
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={treknflow9}
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={treknflow10}
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="grid gap-4">
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={treknflow11}
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={treknflow12}
+                alt=""
+              />
+            </div>
+            <div>
+              <img
+                class="h-auto max-w-full rounded-lg"
+                src={treknflow13}
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
