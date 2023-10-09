@@ -5,6 +5,7 @@ import YogaHero from "../../assets/yogahero.jpeg";
 import YogaPose from "../../assets/yogapose.jpeg";
 import YogaPose2 from "../../assets/yogapose2.jpeg";
 import styles from "./Home.module.css";
+import Footer from "../footer/Footer";
 
 const Home = () => {
   useEffect(() => {
@@ -72,6 +73,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      {/* <Footer /> */}
     </>
   );
 };
