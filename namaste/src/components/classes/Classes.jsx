@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
+import AOS from "aos";
 import BeachYoga from "../../assets/beachyoga.jpg";
 import ContactImage from "../../assets/contactimage.jpeg";
 import styles from "./Classes.module.css";
@@ -37,9 +39,17 @@ const Classes = () => {
     },
   ];
 
+  useEffect(() => {
+    AOS.init({
+      duration: 3000,
+      offset: 100,
+      easing: "ease",
+    });
+  }, []);
+
   return (
     <>
-      <div className="relative">
+      <div className="relative" data-aos="zoom-out">
         <img
           src={BeachYoga}
           alt="Yoga Classes Background"
@@ -71,7 +81,9 @@ const Classes = () => {
       {/* Contact section */}
 
       <div className="bg-white-300c bg-opacity-80 p-8 rounded-lg relative">
-        <div className={`${styles.Contact} border border-gray-400 rounded-lg overflow-hidden`}>
+        <div
+          className={`${styles.Contact} border border-gray-400 rounded-lg overflow-hidden`}
+        >
           <div className="flex items-center">
             <div className="w-1/2 pr-8 m-10">
               <h2 className="text-2xl font-semibold mb-2">Contact Us</h2>

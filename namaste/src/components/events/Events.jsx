@@ -58,7 +58,7 @@ export default function Events() {
 
   return (
     <>
-      <div className={`relative`}>
+      <div className={`relative`} data-aos="zoom-out">
         <img
           src={treknflowhero}
           alt="Yoga class in mountains"
