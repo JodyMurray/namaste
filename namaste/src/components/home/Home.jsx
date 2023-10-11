@@ -38,12 +38,14 @@ const Home = () => {
               harmonious blend of nature, wellness, and mindfulness in each
               session with Seána.
             </p>
-            <button
-              className="bg-purple-500 hover:bg-purple-700 text-white font-semibold py-2 px-4 mt-4 rounded-full"
-              data-aos="flip-up"
-            >
-              More Info
-            </button>
+            <a href="/classes">
+              <button
+                className="bg-purple-500 hover:bg-purple-700 text-white font-semibold py-2 px-4 mt-4 rounded-full"
+                data-aos="flip-up"
+              >
+                Classes
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -57,19 +59,21 @@ const Home = () => {
         <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-b from-black to-transparent">
           <div className="max-w-xl mx-auto text-white p-8">
             <h2 className="text-4xl font-bold mb-4" data-aos="fade-left">
-              Explore the Serenity
+              Explore the outbacks of Spain
             </h2>
             <p className="text-lg" data-aos="fade-right">
-              Immerse yourself in the tranquil world of yoga and experience
-              inner peace like never before. Join us in this journey of wellness
-              and mindfulness.
+              Discover Andalusia's beauty through exhilarating
+              hikes, followed by serene yoga and snacks for a rejuvenating
+              experience.
             </p>
-            <button
-              className="bg-purple-500 hover:bg-purple-700 text-white font-semibold py-2 px-4 mt-4 rounded-full"
-              data-aos="flip-up"
-            >
-              Get Started
-            </button>
+            <a href="/trek-n-flow">
+              <button
+                className="bg-purple-500 hover:bg-purple-700 text-white font-semibold py-2 px-4 mt-4 rounded-full"
+                data-aos="flip-up"
+              >
+                Trek 'n Flow events
+              </button>
+            </a>
           </div>
         </div>
       </div>
