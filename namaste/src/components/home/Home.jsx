@@ -17,7 +17,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <div className={`${styles.Hero} relative`}>
+      <div className={`${styles.Hero} relative`} data-aos="zoom-out">
         <img
           src={YogaHero}
           alt="Yoga Hero"

@@ -58,7 +58,7 @@ export default function Events() {
 
   return (
     <>
-      <div className={`relative`}>
+      <div className={`relative`} data-aos="zoom-out">
         <img
           src={treknflowhero}
           alt="Yoga class in mountains"
@@ -98,13 +98,17 @@ export default function Events() {
         </p>
 
         <h2 className={`text-center text-4xl my-5`}>Photo Gallery</h2>
-        <div class={`grid grid-cols-2 md:grid-cols-4 gap-4 ${styles.ImageMargin}`}>
+        <div
+          class={`grid grid-cols-2 md:grid-cols-4 gap-4 ${styles.ImageMargin}`}
+        >
           <div class="grid gap-3">
             <div>
               <img
                 class="h-auto max-w-full rounded-lg"
                 src={treknflow2}
                 alt=""
+                data-aos="zoom-in"
+                data-aos-anchor-placement="center-center"
               />
             </div>
             <div>
@@ -112,6 +116,8 @@ export default function Events() {
                 class="h-auto max-w-full rounded-lg"
                 src={treknflow3}
                 alt=""
+                data-aos="zoom-in"
+                data-aos-anchor-placement="center-center"
               />
             </div>
             <div>
@@ -119,6 +125,8 @@ export default function Events() {
                 class="h-auto max-w-full rounded-lg"
                 src={treknflow4}
                 alt=""
+                data-aos="zoom-in"
+                data-aos-anchor-placement="center-center"
               />
             </div>
           </div>
@@ -128,6 +136,8 @@ export default function Events() {
                 class="h-auto max-w-full rounded-lg"
                 src={treknflow5}
                 alt=""
+                data-aos="zoom-in"
+                data-aos-anchor-placement="center-center"
               />
             </div>
             <div>
@@ -135,6 +145,8 @@ export default function Events() {
                 class="h-auto max-w-full rounded-lg"
                 src={treknflow6}
                 alt=""
+                data-aos="zoom-in"
+                data-aos-anchor-placement="center-center"
               />
             </div>
             <div>
@@ -142,6 +154,8 @@ export default function Events() {
                 class="h-auto max-w-full rounded-lg"
                 src={treknflow7}
                 alt=""
+                data-aos="zoom-in"
+                data-aos-anchor-placement="center-center"
               />
             </div>
           </div>
@@ -151,6 +165,8 @@ export default function Events() {
                 class="h-auto max-w-full rounded-lg"
                 src={treknflow8}
                 alt=""
+                data-aos="zoom-in"
+                data-aos-anchor-placement="center-center"
               />
             </div>
             <div>
@@ -158,6 +174,8 @@ export default function Events() {
                 class="h-auto max-w-full rounded-lg"
                 src={treknflow9}
                 alt=""
+                data-aos="zoom-in"
+                data-aos-anchor-placement="center-center"
               />
             </div>
             <div>
@@ -165,6 +183,8 @@ export default function Events() {
                 class="h-auto max-w-full rounded-lg"
                 src={treknflow10}
                 alt=""
+                data-aos="zoom-in"
+                data-aos-anchor-placement="center-center"
               />
             </div>
           </div>
@@ -174,6 +194,8 @@ export default function Events() {
                 class="h-auto max-w-full rounded-lg"
                 src={treknflow11}
                 alt=""
+                data-aos="zoom-in"
+                data-aos-anchor-placement="center-center"
               />
             </div>
             <div>
@@ -181,6 +203,8 @@ export default function Events() {
                 class="h-auto max-w-full rounded-lg"
                 src={treknflow12}
                 alt=""
+                data-aos="zoom-in"
+                data-aos-anchor-placement="center-center"
               />
             </div>
             <div>
@@ -188,6 +212,8 @@ export default function Events() {
                 class="h-auto max-w-full rounded-lg"
                 src={treknflow13}
                 alt=""
+                data-aos="zoom-in"
+                data-aos-anchor-placement="center-center"
               />
             </div>
           </div>
