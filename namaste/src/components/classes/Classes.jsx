@@ -62,11 +62,11 @@ const Classes = () => {
           <img
             src={BeachYoga}
             alt="Yoga Classes Background"
-            className="w-full h-screen object-cover"
+            className="w-full h-screen object-cover bg-gradient-to-b from-black via-transparent to-transparent"
           />
         </div>
         <div
-          className="absolute inset-0 flex items-center justify-center"
+          className="absolute inset-0 flex items-center justify-center mt-20"
           data-aos="zoom-in"
           data-aos-easing="linear"
           data-aos-duration="3000"
@@ -104,31 +104,32 @@ const Classes = () => {
       </div>
 
       {/* Contact section */}
-
-      <div className="bg-white-300c bg-opacity-80 p-8 rounded-lg relative">
-        <div
-          className={`${styles.Contact} border border-gray-400 rounded-lg overflow-hidden`}
-          data-aos="fade-zoom-out"
-        >
-          <div className="flex items-center">
-            <div className="w-1/2 pr-8 m-10">
-              <h2 className="text-2xl font-semibold mb-2">Contact Us</h2>
-              <p className="text-gray-600 mb-4">
-                If you have any questions or inquiries, feel free to reach out
-                to us.
-              </p>
-              <p className="text-gray-600">
-                Email: example@email.com
-                <br />
-                Phone: (123) 456-7890
-              </p>
-            </div>
-            <div className="w-1/2 p-5">
-              <img
-                src={ContactImage}
-                alt="Contact Image"
-                className="w-full h-auto rounded-lg"
-              />
+      <div className={styles.CardBackground}>
+        <div className="bg-white-300c bg-opacity-80 p-8 rounded-lg relative">
+          <div
+            className={`${styles.Contact} border border-gray-400 rounded-lg overflow-hidden`}
+            data-aos="fade-zoom-out"
+          >
+            <div className="flex items-center">
+              <div className="w-1/2 pr-8 m-10">
+                <h2 className="text-2xl font-semibold mb-2">Contact Us</h2>
+                <p className="text-gray-600 mb-4">
+                  If you have any questions or inquiries, feel free to reach out
+                  to us.
+                </p>
+                <p className="text-gray-600">
+                  Email: example@email.com
+                  <br />
+                  Phone: (123) 456-7890
+                </p>
+              </div>
+              <div className="w-1/2 p-5">
+                <img
+                  src={ContactImage}
+                  alt="Contact Image"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
             </div>
           </div>
         </div>

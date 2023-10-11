@@ -1,4 +1,28 @@
 .Contact {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background-image: linear-gradient(to bottom, rgb(254, 243, 199), rgb(255, 255, 255));
+  background-image: linear-gradient(
+    to bottom,
+    rgb(254, 243, 199),
+    rgb(255, 255, 255)
+  );
+}
+
+.CardBackground {
+  background: linear-gradient(
+    to bottom,
+    #c14700,
+    #c44a04,
+    #ff784c,
+    #f77043,
+    #f37348,
+    #f1754b,
+    #ec764e,
+    #ffdb58
+  );
+  
+  background-blend-mode: color-burn;
+  width: 100%;
+  height: 110vh; 
+  
+  z-index: -1;
 }
