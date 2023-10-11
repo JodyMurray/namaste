@@ -4,6 +4,8 @@ import AOS from "aos";
 import BeachYoga from "../../assets/beachyoga.jpg";
 import ContactImage from "../../assets/contactimage.jpeg";
 import styles from "./Classes.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 const Classes = () => {
   const classes = [
@@ -11,31 +13,37 @@ const Classes = () => {
       day: "Monday",
       location: "Elviria Beach",
       time: "9:00 AM - 10 AM",
+      link: "https://www.google.com/maps/place/Yoga+with+Se%C3%A1na/@36.4916521,-4.7894722,16.53z/data=!4m10!1m2!2m1!1sUrbanizaci%C3%B3n+Coto+de+los+Dolores,+C.+Carril+del+Relojero,+29604+Marbella,+M%C3%A1laga!3m6!1s0xd73215f7389c159:0x71d83c42d91a4e5!8m2!3d36.4919162!4d-4.7833011!15sClJVcmJhbml6YWNpw7NuIENvdG8gZGUgbG9zIERvbG9yZXMsIEMuIENhcnJpbCBkZWwgUmVsb2plcm8sIDI5NjA0IE1hcmJlbGxhLCBNw6FsYWdhkgEPeW9nYV9pbnN0cnVjdG9y4AEA!16s%2Fg%2F11k430mgfn?entry=ttu",
     },
     {
       day: "Tuesday",
       location: "Elviria Beach",
       time: "9:00 AM - 10 AM",
+      link: "https://www.google.com/maps/place/Yoga+with+Se%C3%A1na/@36.4916521,-4.7894722,16.53z/data=!4m10!1m2!2m1!1sUrbanizaci%C3%B3n+Coto+de+los+Dolores,+C.+Carril+del+Relojero,+29604+Marbella,+M%C3%A1laga!3m6!1s0xd73215f7389c159:0x71d83c42d91a4e5!8m2!3d36.4919162!4d-4.7833011!15sClJVcmJhbml6YWNpw7NuIENvdG8gZGUgbG9zIERvbG9yZXMsIEMuIENhcnJpbCBkZWwgUmVsb2plcm8sIDI5NjA0IE1hcmJlbGxhLCBNw6FsYWdhkgEPeW9nYV9pbnN0cnVjdG9y4AEA!16s%2Fg%2F11k430mgfn?entry=ttu",
     },
     {
       day: "Wednesday",
       location: "Elviria Beach",
       time: "9:00 AM - 10 AM",
+      link: "https://www.google.com/maps/place/Yoga+with+Se%C3%A1na/@36.4916521,-4.7894722,16.53z/data=!4m10!1m2!2m1!1sUrbanizaci%C3%B3n+Coto+de+los+Dolores,+C.+Carril+del+Relojero,+29604+Marbella,+M%C3%A1laga!3m6!1s0xd73215f7389c159:0x71d83c42d91a4e5!8m2!3d36.4919162!4d-4.7833011!15sClJVcmJhbml6YWNpw7NuIENvdG8gZGUgbG9zIERvbG9yZXMsIEMuIENhcnJpbCBkZWwgUmVsb2plcm8sIDI5NjA0IE1hcmJlbGxhLCBNw6FsYWdhkgEPeW9nYV9pbnN0cnVjdG9y4AEA!16s%2Fg%2F11k430mgfn?entry=ttu",
     },
     {
       day: "Wednesday",
       location: "La Zambra",
       time: "7:00PM - 8 PM",
+      link: "https://www.google.com/maps/place/Yoga+with+Se%C3%A1na/@36.4916521,-4.7894722,16.53z/data=!4m10!1m2!2m1!1sUrbanizaci%C3%B3n+Coto+de+los+Dolores,+C.+Carril+del+Relojero,+29604+Marbella,+M%C3%A1laga!3m6!1s0xd73215f7389c159:0x71d83c42d91a4e5!8m2!3d36.4919162!4d-4.7833011!15sClJVcmJhbml6YWNpw7NuIENvdG8gZGUgbG9zIERvbG9yZXMsIEMuIENhcnJpbCBkZWwgUmVsb2plcm8sIDI5NjA0IE1hcmJlbGxhLCBNw6FsYWdhkgEPeW9nYV9pbnN0cnVjdG9y4AEA!16s%2Fg%2F11k430mgfn?entry=ttu",
     },
     {
       day: "Friday",
       location: "Elviria Beach",
       time: "8:00 PM - 9:30 PM",
+      link: "https://www.google.com/maps/place/Yoga+with+Se%C3%A1na/@36.4916521,-4.7894722,16.53z/data=!4m10!1m2!2m1!1sUrbanizaci%C3%B3n+Coto+de+los+Dolores,+C.+Carril+del+Relojero,+29604+Marbella,+M%C3%A1laga!3m6!1s0xd73215f7389c159:0x71d83c42d91a4e5!8m2!3d36.4919162!4d-4.7833011!15sClJVcmJhbml6YWNpw7NuIENvdG8gZGUgbG9zIERvbG9yZXMsIEMuIENhcnJpbCBkZWwgUmVsb2plcm8sIDI5NjA0IE1hcmJlbGxhLCBNw6FsYWdhkgEPeW9nYV9pbnN0cnVjdG9y4AEA!16s%2Fg%2F11k430mgfn?entry=ttu",
     },
     {
       day: "Saturday",
       location: "Elviria Beach",
       time: "8:00 PM - 9:30 PM",
+      link: "https://www.google.com/maps/place/Yoga+with+Se%C3%A1na/@36.4916521,-4.7894722,16.53z/data=!4m10!1m2!2m1!1sUrbanizaci%C3%B3n+Coto+de+los+Dolores,+C.+Carril+del+Relojero,+29604+Marbella,+M%C3%A1laga!3m6!1s0xd73215f7389c159:0x71d83c42d91a4e5!8m2!3d36.4919162!4d-4.7833011!15sClJVcmJhbml6YWNpw7NuIENvdG8gZGUgbG9zIERvbG9yZXMsIEMuIENhcnJpbCBkZWwgUmVsb2plcm8sIDI5NjA0IE1hcmJlbGxhLCBNw6FsYWdhkgEPeW9nYV9pbnN0cnVjdG9y4AEA!16s%2Fg%2F11k430mgfn?entry=ttu",
     },
   ];
 
@@ -76,7 +84,13 @@ const Classes = () => {
                     </h2>
                     <p className="text-gray-600">
                       <span className="font-semibold">Location:</span>{" "}
-                      {cls.location}
+                      <a href={cls.link} className="text-black hover:underline">
+                        {cls.location}
+                        <FontAwesomeIcon
+                          icon={faLocationDot}
+                          className="ml-2 bg-transparent"
+                        />
+                      </a>
                     </p>
                     <p className="text-gray-600">
                       <span className="font-semibold">Time:</span> {cls.time}
