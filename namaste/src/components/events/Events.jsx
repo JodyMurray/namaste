@@ -86,9 +86,9 @@ export default function Events() {
       </div>
 
       <div>
-        <h1 className={`text-center mt-5 text-4xl`}>Title</h1>
-        <h2 className={`text-center text-4xl mb-4`}>. . .</h2>
-        <p className={`text-xl text-center`}>
+        <h1 className={`text-center mt-5 text-4xl ${styles.EventTitle}`}>Title</h1>
+        <h2 className={`text-center text-4xl mb-5`}>. . .</h2>
+        <p className={`text-xl text-center mb-5`}>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
@@ -97,7 +97,7 @@ export default function Events() {
           qui ratione voluptatem sequi nesciunt.
         </p>
 
-        <h2 className={`text-center text-4xl my-5`}>Photo Gallery</h2>
+        <h2 className={`text-center text-4xl ${styles.PhotoGalleryTitle}`}>Photo Gallery</h2>
         <div
           class={`grid grid-cols-2 md:grid-cols-4 gap-4 ${styles.ImageMargin}`}
         >
