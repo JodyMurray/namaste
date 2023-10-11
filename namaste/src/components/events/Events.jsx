@@ -86,18 +86,20 @@ export default function Events() {
       </div>
 
       <div>
-        <h1 className={`text-center mt-5 text-4xl ${styles.EventTitle}`}>Title</h1>
-        <h2 className={`text-center text-4xl mb-5`}>. . .</h2>
+        <h2 className={`text-center text-4xl mb-5 ${styles.EventTitle}`}>
+          . . .
+        </h2>
         <p className={`text-xl text-center mb-5`}>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt.
+          Join our{" "}
+          <a className={`${styles.FacebookLink}`} href="https://www.facebook.com/groups/286832625905876" target="_blank">
+            Trek n' Flow Facebook page
+          </a>{" "}
+          to get the next updates on upcoming trips.
         </p>
 
-        <h2 className={`text-center text-4xl ${styles.PhotoGalleryTitle}`}>Photo Gallery</h2>
+        <h2 className={`text-center text-4xl ${styles.PhotoGalleryTitle}`}>
+          Photo Gallery
+        </h2>
         <div
           class={`grid grid-cols-2 md:grid-cols-4 gap-4 ${styles.ImageMargin}`}
         >
